@@ -1,3 +1,20 @@
+## Running The System
+
+To install the software locally on windows:
+
+1. Download the file and put it somewhere you know such as "C:\Project\fypsmsv2" or on your desktop.
+2. Download meilisearch from https://github.com/meilisearch/meilisearch/releases/download/v1.26.0/meilisearch-windows-amd64.exe.
+3. Rename the file to "meilisearch.exe".
+4. Go back to fypsmsv2 file and place the "meilisearch.exe" executable in the file.
+5. Make a sql database, either by using XAMPP or SQL Workbench, named fypsmsv2
+6. Open the fypsmsv2 file that was downloaded using CMD or Windows Powershell.
+7. Run "php artisan migrate" to make tables in the database.
+8. Create a user in "users" table with any information based on the column name.
+9. Make the data for the new user as admin under the "role" column.
+10. Run the system locally such as "http://localhost:8000/" and login.
+11. Make profile and other users.
+12. Enjoy!
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
